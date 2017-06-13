@@ -96,7 +96,7 @@ parameters = {
 	'rfc__criterion':['gini', 'entropy'],
     'rfc__max_features':['sqrt','log2',None],
 	'rfc__max_depth':[None],
-	'rfc__min_samples_split':[1,2],
+	'rfc__min_samples_split':[2,3],
 	'rfc__min_samples_leaf':[1,5,10],
     'rfc__bootstrap':[True,False],
     'rfc__oob_score':[True,False],
