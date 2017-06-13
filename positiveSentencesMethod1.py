@@ -89,11 +89,11 @@ pipeline = Pipeline([
 ##  Keys are parameters of objects in the pipeline.
 ##  Values are set of values to try for a particular parameter.
 parameters = {
-    'vect__tokenizer': [None, stemming_tokenizer],
+    #'vect__tokenizer': [None, stemming_tokenizer],
 	'vect__ngram_range': [(1, 1), (1, 2),],
     'svm__kernel':["linear", "rbf"],
-	'svm__gamma': [1e-3, 1e-4],
-	'svm__C': [1, 10, 100, 1000]
+	'svm__gamma': [1e-2, 1e-3, 1e-4],
+	'svm__C': [1, 5, 10, 100, 1000]
 	}
 
 
@@ -158,4 +158,23 @@ confusion_matrix = metrics.confusion_matrix(Y_test, Y_predicted)
 print()
 print("Confusion Matrix: True-Classes X Predicted-Classes")
 print(confusion_matrix)
+print()
+
+normalized_accuracy = metrics.accuracy_score(
+									Y_test,
+									Y_predicted)
+print()
+print ("----------------------------------------------------")
+print("Normalized Accuracy: ", normalized_accuracy)
+print ("----------------------------------------------------")
+print()
+
+# Compute the Matthews_corrcoef
+matthews_corrcoef = metrics.matthews_corrcoef(
+									Y_test,
+									Y_predicted)
+print()
+print ("----------------------------------------------------")
+print("Matthews corr: ", matthews_corrcoef)
+print ("----------------------------------------------------")
 print()

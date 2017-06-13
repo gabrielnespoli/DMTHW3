@@ -1,0 +1,1201 @@
+
+----------------------
+['Positive', 'negative']
+----------------------
+
+
+----------------------
+Creating Training Set and Test Set
+
+Training Set Size
+(557,)
+
+Test Set Size
+(558,)
+
+Classes:
+['Positive', 'negative']
+----------------------
+
+Fitting 10 folds for each of 60 candidates, totalling 600 fits
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.912236, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.989091, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.966786, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.989091, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.950467, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.727273, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.722222, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.956364, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.953704, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.889286, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.889286, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.989091, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.950467, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.950467, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.912236, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.856071, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.845000, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.822857, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.811786, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.933535, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.968929, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.803636, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.814815, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.745357, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.756429, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.966786, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.955714, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.944643, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.933535, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) [CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.950467, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.980769, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.937857, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.933535, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.734286, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.745357, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.745357, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.727273, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.722222, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.922500, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.922500, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.933571, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.933571, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) [CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.980769, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.932987, total=   0.2s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.980769, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.937857, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.966786, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.966786, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.933535, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=1.000000, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.727273, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.722222, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) [CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.734286, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.745357, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.760000, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.745370, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.920833, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.933535, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) [CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.937857, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.727273, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.722222, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.727273, total=   0.1s
+[CV] svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.722222, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.800714, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.789643, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.811786, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.800714, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.933535, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.856071, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.856071, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.847273, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.849537, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.968929, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) [CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.977857, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.912236, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=5, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.933535, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.856071, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.845000, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.833929, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.845000, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.727273, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.722222, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.893214, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.962963, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.966786, total=   0.1s
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.893214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.962963, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.967273, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.953704, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.889286, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.889286, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.933535, total=   0.0s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.932987, total=   0.2s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.962963, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.966786, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.922500, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.922500, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.933571, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.933571, total=   0.1s
+
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.878214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.867143, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.858182, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.849537, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.962963, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.957024, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.968929, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.893214, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.920833, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.966786, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.955714, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.920833, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.944643, total=   0.1s
+
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.968929, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.893214, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.920833, total=   0.0s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.933535, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=1.000000, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.968929, total=   0.2s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.2s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=10, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.962963, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.727273, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.722222, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.968929, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950467, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.893214, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.920833, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.962963, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.966786, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.957024, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.950629, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=1.000000, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.967273, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.953704, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.889286, total=   0.2s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.889286, total=   0.1s
+
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.950629, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=1.000000, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.966786, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.955714, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.920833, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.944643, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=0.933535, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 1), score=1.000000, total=   0.0s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=rbf, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.723214, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.937857, total=   0.2s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.937857, total=   0.2s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.989091, total=   0.2s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=10, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.937857, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.932987, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.920833, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.980769, total=   0.1s
+[CV] svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=100, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.962963, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.966786, total=   0.0s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.957024, total=   0.0s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.977857, total=   0.0s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=0.933535, total=   0.2s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 1), score=1.000000, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.968929, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.01, vect__ngram_range=(1, 2), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.962963, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.966786, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.937857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1) 
+[CV]  svm__C=1000, svm__kernel=rbf, svm__gamma=0.001, vect__ngram_range=(1, 1), score=0.977857, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.937857, total=   0.2s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.945047, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=0.989091, total=   0.1s
+[CV] svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2) 
+[CV]  svm__C=1000, svm__kernel=linear, svm__gamma=0.0001, vect__ngram_range=(1, 2), score=1.000000, total=   0.1s
+
+Results:
+0 params - {'svm__kernel': 'linear', 'svm__C': 1, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.960; std - 0.028
+1 params - {'svm__kernel': 'linear', 'svm__C': 1, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+2 params - {'svm__kernel': 'rbf', 'svm__C': 1, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+3 params - {'svm__kernel': 'rbf', 'svm__C': 1, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+4 params - {'svm__kernel': 'linear', 'svm__C': 1, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.960; std - 0.028
+5 params - {'svm__kernel': 'linear', 'svm__C': 1, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+6 params - {'svm__kernel': 'rbf', 'svm__C': 1, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+7 params - {'svm__kernel': 'rbf', 'svm__C': 1, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+8 params - {'svm__kernel': 'linear', 'svm__C': 1, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.960; std - 0.028
+9 params - {'svm__kernel': 'linear', 'svm__C': 1, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+10 params - {'svm__kernel': 'rbf', 'svm__C': 1, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+11 params - {'svm__kernel': 'rbf', 'svm__C': 1, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+12 params - {'svm__kernel': 'linear', 'svm__C': 5, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+13 params - {'svm__kernel': 'linear', 'svm__C': 5, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+14 params - {'svm__kernel': 'rbf', 'svm__C': 5, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.816; std - 0.020
+15 params - {'svm__kernel': 'rbf', 'svm__C': 5, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.743; std - 0.010
+16 params - {'svm__kernel': 'linear', 'svm__C': 5, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+17 params - {'svm__kernel': 'linear', 'svm__C': 5, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+18 params - {'svm__kernel': 'rbf', 'svm__C': 5, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+19 params - {'svm__kernel': 'rbf', 'svm__C': 5, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+20 params - {'svm__kernel': 'linear', 'svm__C': 5, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+21 params - {'svm__kernel': 'linear', 'svm__C': 5, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+22 params - {'svm__kernel': 'rbf', 'svm__C': 5, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+23 params - {'svm__kernel': 'rbf', 'svm__C': 5, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+24 params - {'svm__kernel': 'linear', 'svm__C': 10, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+25 params - {'svm__kernel': 'linear', 'svm__C': 10, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+26 params - {'svm__kernel': 'rbf', 'svm__C': 10, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.941; std - 0.016
+27 params - {'svm__kernel': 'rbf', 'svm__C': 10, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.857; std - 0.018
+28 params - {'svm__kernel': 'linear', 'svm__C': 10, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+29 params - {'svm__kernel': 'linear', 'svm__C': 10, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+30 params - {'svm__kernel': 'rbf', 'svm__C': 10, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+31 params - {'svm__kernel': 'rbf', 'svm__C': 10, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+32 params - {'svm__kernel': 'linear', 'svm__C': 10, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+33 params - {'svm__kernel': 'linear', 'svm__C': 10, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+34 params - {'svm__kernel': 'rbf', 'svm__C': 10, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+35 params - {'svm__kernel': 'rbf', 'svm__C': 10, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+36 params - {'svm__kernel': 'linear', 'svm__C': 100, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+37 params - {'svm__kernel': 'linear', 'svm__C': 100, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+38 params - {'svm__kernel': 'rbf', 'svm__C': 100, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+39 params - {'svm__kernel': 'rbf', 'svm__C': 100, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+40 params - {'svm__kernel': 'linear', 'svm__C': 100, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+41 params - {'svm__kernel': 'linear', 'svm__C': 100, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+42 params - {'svm__kernel': 'rbf', 'svm__C': 100, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.942; std - 0.017
+43 params - {'svm__kernel': 'rbf', 'svm__C': 100, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.862; std - 0.018
+44 params - {'svm__kernel': 'linear', 'svm__C': 100, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+45 params - {'svm__kernel': 'linear', 'svm__C': 100, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+46 params - {'svm__kernel': 'rbf', 'svm__C': 100, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.724; std - 0.001
+47 params - {'svm__kernel': 'rbf', 'svm__C': 100, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.724; std - 0.001
+48 params - {'svm__kernel': 'linear', 'svm__C': 1000, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+49 params - {'svm__kernel': 'linear', 'svm__C': 1000, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+50 params - {'svm__kernel': 'rbf', 'svm__C': 1000, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 1)}; mean - 0.954; std - 0.030
+51 params - {'svm__kernel': 'rbf', 'svm__C': 1000, 'svm__gamma': 0.01, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+52 params - {'svm__kernel': 'linear', 'svm__C': 1000, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+53 params - {'svm__kernel': 'linear', 'svm__C': 1000, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+54 params - {'svm__kernel': 'rbf', 'svm__C': 1000, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+55 params - {'svm__kernel': 'rbf', 'svm__C': 1000, 'svm__gamma': 0.001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+56 params - {'svm__kernel': 'linear', 'svm__C': 1000, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.953; std - 0.029
+57 params - {'svm__kernel': 'linear', 'svm__C': 1000, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.963; std - 0.025
+58 params - {'svm__kernel': 'rbf', 'svm__C': 1000, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 1)}; mean - 0.942; std - 0.017
+59 params - {'svm__kernel': 'rbf', 'svm__C': 1000, 'svm__gamma': 0.0001, 'vect__ngram_range': (1, 2)}; mean - 0.862; std - 0.018
+
+Best Estimator:
+Pipeline(steps=[('vect', TfidfVectorizer(analyzer='word', binary=False, decode_error='strict',
+        dtype=<class 'numpy.int64'>, encoding='utf-8', input='content',
+        lowercase=True, max_df=1.0, max_features=None, min_df=1,
+        ngram_range=(1, 2), norm='l2', preprocessor=None, smooth_idf=True,
+  ...,
+  max_iter=-1, probability=False, random_state=None, shrinking=True,
+  tol=0.001, verbose=False))])
+
+Best Parameters:
+{'svm__C': 1,
+ 'svm__gamma': 0.01,
+ 'svm__kernel': 'linear',
+ 'vect__ngram_range': (1, 2)}
+
+Used Scorer Function:
+make_scorer(average_precision_score, average=weighted)
+
+Number of Folds:
+10
+
+
+----------------------------------------------------
+             precision    recall  f1-score   support
+
+   Positive       0.93      0.98      0.96       308
+   negative       0.97      0.91      0.94       250
+
+avg / total       0.95      0.95      0.95       558
+
+----------------------------------------------------
+
+
+Confusion Matrix: True-Classes X Predicted-Classes
+[[302   6]
+ [ 22 228]]
+
+
+----------------------------------------------------
+Normalized Accuracy:  0.94982078853
+----------------------------------------------------
+
+
+----------------------------------------------------
+Matthews corr:  0.899461611761
+----------------------------------------------------
+
