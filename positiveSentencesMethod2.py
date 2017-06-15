@@ -95,7 +95,7 @@ parameters = {
 	'rfc__n_estimators': [100,800],
 	'rfc__criterion':['gini', 'entropy'],
     'rfc__max_features':['sqrt'],
-	'rfc__max_depth': [10,50,None],
+	'rfc__max_depth': [10,25,50,None],
 	#'rfc__min_samples_split': [2,10,20],
     #'rfc__oob_score':[True,False],
     'rfc__n_jobs':[-1],

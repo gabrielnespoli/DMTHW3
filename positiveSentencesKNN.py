@@ -88,7 +88,7 @@ pipeline = Pipeline([
 ## Setting parameters.
 ## Dictionary in which:
 ##  Keys are parameters of objects in the pipeline.
-##  Values are set of values to try for a particular parameter.
+##  Values are set of values to try for a particular para   meter.
 parameters = {
     'vect__tokenizer': [None, stemming_tokenizer],
 	'vect__ngram_range': [(1, 1), (1, 2),],
