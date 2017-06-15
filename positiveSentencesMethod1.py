@@ -89,7 +89,7 @@ pipeline = Pipeline([
 ##  Keys are parameters of objects in the pipeline.
 ##  Values are set of values to try for a particular parameter.
 parameters = {
-    #'vect__tokenizer': [None, stemming_tokenizer],
+    'vect__tokenizer': [None, stemming_tokenizer],
 	'vect__ngram_range': [(1, 1), (1, 2),],
     'svm__kernel':["linear", "rbf"],
 	'svm__gamma': [1e-2, 1e-3, 1e-4],
