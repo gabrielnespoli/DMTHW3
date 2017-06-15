@@ -91,9 +91,11 @@ pipeline = Pipeline([
 parameters = {
     'vect__tokenizer': [None, stemming_tokenizer],
 	'vect__ngram_range': [(1, 1), (1, 2),],
-    'svm__kernel':["linear", "rbf"],
-	'svm__gamma': [1e-2, 1e-3, 1e-4],
-	'svm__C': [1, 5, 10, 100, 1000]
+    'svm__kernel':["linear", "rbf", "poly", "sigmoid"],
+    'svm__degree': [2, 3],
+    'svm__coef0': [0.0, 1.0],
+	'svm__gamma': [1e-2, 1e-3,"auto"],
+	'svm__C': [1, 5, 10]
 	}
 
 
