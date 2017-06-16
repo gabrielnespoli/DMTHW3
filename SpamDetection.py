@@ -165,3 +165,23 @@ print()
 print("Confusion Matrix: True-Classes X Predicted-Classes")
 print(confusion_matrix)
 print()
+
+# Compute the Normalized-accuracy
+normalized_accuracy = metrics.accuracy_score(
+									Y_test,
+									Y_predicted)
+print()
+print ("----------------------------------------------------")
+print("Normalized Accuracy: ", normalized_accuracy)
+print ("----------------------------------------------------")
+print()
+
+# Compute the Matthews_corrcoef
+matthews_corrcoef = metrics.matthews_corrcoef(
+									Y_test,
+									Y_predicted)
+print()
+print ("----------------------------------------------------")
+print("Matthews corr: ", matthews_corrcoef)
+print ("----------------------------------------------------")
+print()
