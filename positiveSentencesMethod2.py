@@ -108,7 +108,8 @@ parameters = {
 ## to find in an automated fashion the best combination of parameters.
 grid_search = GridSearchCV(pipeline,
 						   parameters,
-						   scoring=metrics.make_scorer(metrics.average_precision_score, average='weighted'),
+						   #scoring=metrics.make_scorer(metrics.average_precision_score, average='weighted'),
+						   scoring=metrics.make_scorer(metrics.matthews_corrcoef),
 						   cv=10,
 						   n_jobs=-1,
 						   verbose=10)

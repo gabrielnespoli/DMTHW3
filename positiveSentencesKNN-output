@@ -12103,16 +12103,16 @@ Pipeline(steps=[('vect', TfidfVectorizer(analyzer='word', binary=False, decode_e
            metric_params=None, n_jobs=-1, n_neighbors=5, p=1,
            weights='distance'))])
 
-Best Parameters:
-{'knn__algorithm': 'auto',
- 'knn__leaf_size': 30,
- 'knn__metric': 'minkowski',
- 'knn__n_jobs': -1,
- 'knn__n_neighbors': 5,
- 'knn__p': 1,
- 'knn__weights': 'distance',
- 'vect__ngram_range': (1, 1),
- 'vect__tokenizer': <function stemming_tokenizer at 0x7fb0402829d8>}
+    Best Parameters:
+    {'knn__algorithm': 'auto',
+     'knn__leaf_size': 30,
+     'knn__metric': 'minkowski',
+     'knn__n_jobs': -1,
+     'knn__n_neighbors': 5,
+     'knn__p': 1,
+     'knn__weights': 'distance',
+     'vect__ngram_range': (1, 1),
+     'vect__tokenizer': <function stemming_tokenizer at 0x7fb0402829d8>}
 
 Used Scorer Function:
 make_scorer(average_precision_score, average=weighted)
