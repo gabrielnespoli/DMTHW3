@@ -218,7 +218,7 @@ parameters = {
 	'rfc__max_depth': [10,50,None],
 	'rfc__min_samples_split': [2,10],
     #'rfc__oob_score':[True,False],
-    'rfc__n_jobs':[-1],
+    'rfc__n_jobs':[1],
     'rfc__verbose':[1],
     'rfc__warm_start': [True]
 }

@@ -98,7 +98,7 @@ parameters = {
 	'knn__leaf_size':[30, 40],
 	'knn__p':[1, 2],
 	'knn__metric':['minkowski', 'euclidean'],
-    'knn__n_jobs':[-1]
+    'knn__n_jobs':[1]
 	}
 
 
