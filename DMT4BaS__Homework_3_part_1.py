@@ -27,9 +27,38 @@ def stemming_tokenizer(text):
 
 
 
+from sklearn.datasets import load_files
+from sklearn.model_selection import train_test_split
+
+from sklearn.feature_extraction.text import TfidfVectorizer
+
+from nltk.corpus import stopwords
+from nltk.stem.snowball import EnglishStemmer
+from nltk import word_tokenize
+
+from sklearn.neighbors import KNeighborsClassifier
+
+from sklearn.pipeline import Pipeline
+from sklearn.model_selection import GridSearchCV
+
+from sklearn import metrics
+
+import pprint as pp
+
+
+############################################
+stemmer = EnglishStemmer()
+
+def stemming_tokenizer(text):
+	stemmed_text = [stemmer.stem(word) for word in word_tokenize(text, language='english')]
+	return stemmed_text
+######################################################################
+
+
+
 ## Dataset containing Positive and neative sentences on Amazon products
-data_folder_training_set = "./Positve_negative_sentences/Training"
-data_folder_test_set     = "./Positve_negative_sentences/Test"
+data_folder_training_set = "./Ham_Spam_comments/Training"
+data_folder_test_set     = "./Ham_Spam_comments/Test"
 
 training_dataset = load_files(data_folder_training_set)
 test_dataset = load_files(data_folder_test_set)
@@ -88,7 +117,7 @@ pipeline = Pipeline([
 ## Setting parameters.
 ## Dictionary in which:
 ##  Keys are parameters of objects in the pipeline.
-##  Values are set of values to try for a particular para   meter.
+##  Values are set of values to try for a particular parameter.
 parameters = {
     'vect__tokenizer': [None, stemming_tokenizer],
 	'vect__ngram_range': [(1, 1), (1, 2),],
@@ -98,7 +127,7 @@ parameters = {
 	'knn__leaf_size':[30, 40],
 	'knn__p':[1, 2],
 	'knn__metric':['minkowski', 'euclidean'],
-    'knn__n_jobs':[1]
+    'knn__n_jobs':[-1]
 	}
 
 
@@ -172,7 +201,7 @@ normalized_accuracy = metrics.accuracy_score(
 									Y_predicted)
 print()
 print ("----------------------------------------------------")
-print(normalized_accuracy)
+print("Normalized Accuracy: ", normalized_accuracy)
 print ("----------------------------------------------------")
 print()
 
@@ -182,6 +211,6 @@ matthews_corrcoef = metrics.matthews_corrcoef(
 									Y_predicted)
 print()
 print ("----------------------------------------------------")
-print(matthews_corrcoef)
+print("Matthews corr: ", matthews_corrcoef)
 print ("----------------------------------------------------")
 print()
