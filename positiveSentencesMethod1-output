@@ -11906,7 +11906,9 @@ Best Parameters:
  'svm__gamma': 0.01,
  'svm__kernel': 'linear',
  'vect__ngram_range': (1, 2),
- 'vect__tokenizer': <function stemming_tokenizer at 0x7fdd251cd9d8>}
+ 'vect__tokenizer': <•	ngram_range (1, 1)
+•	tokenizer	      function stemming_tokenizer at 0x7f794c0559d8>
+}
 
 Used Scorer Function:
 make_scorer(matthews_corrcoef)
